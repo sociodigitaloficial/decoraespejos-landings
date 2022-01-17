@@ -5,13 +5,15 @@
     --section-header-padding-desktop: 78px 0px;
     --header-title-mobile: 30px;
     --header-title-desktop: 42px;
+	--header-benefits-size-mobile: 15px;
+	--header-benefits-size-desktop: 17px;
     --section-title-size-mobile: 24px;
     --section-title-size-desktop: 28px;
 	--carousel-message-size-mobile: 14px;
     --carousel-message-size-desktop: 16px;
     --white: #fff;
-    --green-ligth: #80a6ad;
-	--green-dark: #374649;
+    --green-ligth: #61cfe2;
+	--green-dark: #3d838f;
 	--font-family: 'Open Sans', sans-serif;
 }
 
@@ -69,11 +71,20 @@ body {
     margin: 28px 0px 0px 0px;
 }
 
+.header-benefits {
+	color: var(--white);
+	font-size: var(--header-benefits-size-mobile);
+}
+
 .section-title {
     color: var(--white);
     font-size: var(--section-title-size-mobile);
 	margin: 0 0 25px 0;
     text-align: center;
+}
+
+.strong-color {
+	color: var(--green-ligth);
 }
 
 .carousel-container {
@@ -342,6 +353,9 @@ body {
     .header-title {
         font-size: var(--header-title-desktop);
     }
+	.header-benefits {
+		font-size: var(--header-benefits-size-desktop);
+	}
     .carousel-content {
 		justify-content: center;
 	}
