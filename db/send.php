@@ -15,7 +15,7 @@
 
     $server = "localhost";
     $user = "sociodig_user_decoespejos";
-    $password =";qLr=D-wqOW.";
+    $password ="";
     $database = "sociodig_decoespejos";
     
     $conexion = new mysqli($server, $user, $password, $database);
@@ -47,7 +47,7 @@
     $mail->Host       = 'blue107.dnsmisitio.net';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'notificaciones@sociodigital.cl';
-    $mail->Password   = '5!mE_SCs*s.d';
+    $mail->Password   = '';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;   
 	$mail->CharSet = 'UTF-8';
@@ -101,7 +101,7 @@
     $mail2->Host       = 'blue107.dnsmisitio.net';
     $mail2->SMTPAuth   = true;
     $mail2->Username   = 'notificaciones@decoraespejos.cl';
-    $mail2->Password   = 'vj+F{meY.sL+';
+    $mail2->Password   = '';
     $mail2->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail2->Port       = 465;   
 	$mail2->CharSet = 'UTF-8';
